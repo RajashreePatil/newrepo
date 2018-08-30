@@ -7,7 +7,7 @@ This GitHub repository is primarily a client library for [Structurizr](https://s
 
 In essence, Structurizr for Java is an implementation of an __executable architecture description language__; a domain-specific language to describe software architecture, using code. The key benefit of using code to create a software architecture model is that you can use the static analysis and reflection features of Java to help you extract components from the codebase you are modelling. Integration of this tooling with your continuous integration/build process helps your software architecture diagrams stay up to date.
 
-## A quick example
+## A quick example https://github.com/1shekhar/structurizr
 
 As an example, the following Java code can be used to create a software architecture __model__ and an associated __view__ that describes a user using a software system.
 
