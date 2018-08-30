@@ -1,0 +1,23 @@
+{
+	"gammaAccess": {
+		"url": "http://localhost:3000",
+		"userName": "admin@mygamma.io",
+		"password": "admin"
+	},
+	"repositories": [{
+		"repository": {
+			"uid": "f9e8864c1034866e8a85619edc688155",
+			"projectName": "Webhook_Demo_Structurizr_Java",
+			"sources": {
+				"baseDir": "$WORKSPACE"
+			}
+		},
+		"dataDir": "C:/Shekhar-Acellere/GitRepos/Java/Structurizr_Webhook",
+		"modules": {
+			"codeissues": [
+					{
+						"name": "pmd"
+					}]
+		}
+	}]
+}
