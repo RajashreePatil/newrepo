@@ -87,6 +87,16 @@ public final class Workspace extends AbstractWorkspace {
         }
     }
 
+    //AddedDuplication
+    private Documentation createDocumentation_Duplicate() {
+        try {
+            Constructor constructorD = Documentation.class.getDeclaredConstructor(Model.class);
+            constructorD.setAccessible(true);
+            return (Documentation)constructorD.newInstance(model);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
     /**
      * Called when deserialising JSON, to re-create the object graph
      * based upon element/relationship IDs.
