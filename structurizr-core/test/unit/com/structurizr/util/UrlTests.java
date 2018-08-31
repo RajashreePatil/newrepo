@@ -27,5 +27,10 @@ public class UrlTests {
     public void test_isUrl_ReturnsTrue_WhenPassedAValidUrl() {
         assertTrue(Url.isUrl("https://www.google.com"));
     }
+    
+     @Test
+    public void test_isUrl_ReturnsTrue_WhenPassedAValidUrl_Duplicate() {
+        assertTrue(Url.isUrl("https://www.google.com/services/"));
+    }
 
 }
