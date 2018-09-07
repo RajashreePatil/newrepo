@@ -73,7 +73,11 @@ public class SpringComponentFinderStrategy extends AbstractReflectionsComponentF
                 org.springframework.web.bind.annotation.RestController.class,
                 SPRING_REST_CONTROLLER);
     }
-
+protected Collection<Component> findAnnotatedSpringRestControllersDuplicate() {
+        return findPublicClassesWithAnnotation(
+                org.springframework.web.bind.annotation.RestController.class,
+                SPRING_REST_CONTROLLER);
+    }
     protected Collection<Component> findSpringRepositoryInterfaces() {
         Collection<Component> componentsFound = new LinkedList<>();
         Set<Class> componentTypes = getInterfacesThatExtend(JpaRepository.class);
