@@ -6,7 +6,7 @@
 	},
 	"repositories": [{
 		"repository": {
-			"uid": "f9e8864c1034866e8a85619edc688155",
+			"uid": "f9e8864c1034866e8a85619edc688111",
 			"projectName": "Webhook_Demo_Structurizr_Java",
 			"sources": {
 				"baseDir": "$WORKSPACE"
