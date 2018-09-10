@@ -26,6 +26,13 @@ public class ComponentFinder {
             Pattern.compile("javax\\..*"),
             Pattern.compile("sun\\..*")
     ));
+    
+    // this is duplicate of a default of regexes representing types we're probably not interested in */
+    private Set<Pattern> exclusions_d = new HashSet<>(Arrays.asList(
+            Pattern.compile("java\\..*"),
+            Pattern.compile("javax\\..*"),
+            Pattern.compile("sun\\..*")
+    ));
 
     // the list of strategies, which will be executed in the order they are added
     private List<ComponentFinderStrategy> componentFinderStrategies = new ArrayList<>();
