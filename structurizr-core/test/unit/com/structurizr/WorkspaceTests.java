@@ -42,6 +42,15 @@ public class WorkspaceTests {
         assertFalse(workspace.isEmpty());
     }
 
+    //Check Commit and Duplication for Webhook
+    @Test
+    public void test_isEmpty_ReturnsFalse_WhenThereIsDocumentation1() throws Exception {
+        workspace = new Workspace("Name", "Description");
+        StructurizrDocumentationTemplate template = new StructurizrDocumentationTemplate(workspace);
+        template.addImage(new File("../docs/images/structurizr-logo.png"));
+        assertFalse(workspace.isEmpty());
+    }
+    
     @Test
     public void test_countAndLogWarnings() {
         Workspace workspace = new Workspace("Name", "Description");
