@@ -1,18 +1,18 @@
 {
 	"gammaAccess": {
 		"url": "http://localhost:3000",
-		"userName": "admin@mygamma.io",
-		"password": "admin"
+		"userName": "chandrashekhar.bhosale@acellere.com",
+		"password": "admin1234"
 	},
 	"repositories": [{
 		"repository": {
-			"uid": "f9e8864c1034866e8a85619edc688111",
-			"projectName": "Webhook_Demo_Structurizr_Java",
+			"uid": "753233cf5e06d297bc54a281fa9e354d",
+			"projectName": "TC_java_structurizr",
 			"sources": {
-				"baseDir": "$WORKSPACE"
+				"baseDir": "%WORKSPACE%"
 			}
 		},
-		"dataDir": "C:/Shekhar-Acellere/GitRepos/Java/Structurizr_Webhook",
+		"dataDir": "%GAMMA_DATA%",
 		"modules": {
 			"codeissues": [
 					{
