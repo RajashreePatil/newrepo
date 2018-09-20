@@ -9,10 +9,10 @@
 			"uid": "753233cf5e06d297bc54a281fa9e354d",
 			"projectName": "TC_java_structurizr",
 			"sources": {
-				"baseDir": "%WORKSPACE%"
+				"baseDir": "$WORKSPACE"
 			}
 		},
-		"dataDir": "%GAMMA_DATA%",
+		"dataDir": "$GAMMA_DATA",
 		"modules": {
 			"codeissues": [
 					{
