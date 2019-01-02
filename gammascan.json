@@ -1,12 +1,12 @@
 {
 	"gammaAccess": {
-		"url": "http://localhost:3000",
-		"userName": "chandrashekhar.bhosale@acellere.com",
-		"password": "admin1234"
+		"url": "http://192.168.3.33:3000",
+		"userName": "nilesh.virkar@acellere.com",
+		"password": "gamma12345"
 	},
 	"repositories": [{
 		"repository": {
-			"uid": "753233cf5e06d297bc54a281fa9e354d",
+			"uid": "e3e6251eb557761442972e67700c9e0e",
 			"projectName": "TC_java_structurizr",
 			"sources": {
 				"baseDir": "$WORKSPACE"
