@@ -8,8 +8,8 @@
         {
             "dataDir": "",
             "repository": {
-                "uid": "cd1a4cfd562750314a717543c5b43641",
-                "projectName": "java_structurizr",
+                "uid": "dcd406bd0322f11877b74c583ff8a6d8",
+                "projectName": "java-teamcity",
                 "languages": [
                     "JAVA"
                 ],
@@ -24,14 +24,6 @@
             },
             "modules": {
                 "codeissues": [
-                    {
-                        "name": "gamma_java",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": []
-                        }
-                    },
                     {
                         "name": "pmd",
                         "enabled": true,
@@ -51,6 +43,14 @@
                                     "required": true
                                 }
                             ]
+                        }
+                    },
+                    {
+                        "name": "gamma_java",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
                         }
                     }
                 ],
@@ -77,12 +77,7 @@
                         "enabled": true,
                         "config": {
                             "rules": [],
-                            "options": [
-                                {
-                                    "name": "mode",
-                                    "value": "git"
-                                }
-                            ]
+                            "options": []
                         }
                     }
                 ]
