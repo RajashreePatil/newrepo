@@ -8,14 +8,16 @@
         {
             "dataDir": "",
             "repository": {
-                "uid": "dcd406bd0322f11877b74c583ff8a6d8",
-                "projectName": "java-teamcity",
+                "uid": "364cc08af8958c04d8dc4e5822171141",
+                "projectName": "java_teamcity",
                 "languages": [
                     "JAVA"
                 ],
                 "sources": {
                     "baseDir": "",
-                    "exclusions": []
+                    "exclusions": [
+                        "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
+                    ]
                 }
             },
             "settings": {
