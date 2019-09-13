@@ -8,8 +8,8 @@
         {
             "dataDir": "",
             "repository": {
-                "uid": "364cc08af8958c04d8dc4e5822171141",
-                "projectName": "java_teamcity",
+                "uid": "15ada3911e25f6e5f32ef9cf92a39569",
+                "projectName": "java-raj",
                 "languages": [
                     "JAVA"
                 ],
@@ -26,6 +26,14 @@
             },
             "modules": {
                 "codeissues": [
+                    {
+                        "name": "gamma_java",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
                     {
                         "name": "pmd",
                         "enabled": true,
@@ -46,9 +54,11 @@
                                 }
                             ]
                         }
-                    },
+                    }
+                ],
+                "relevance": [
                     {
-                        "name": "gamma_java",
+                        "name": "relevance",
                         "enabled": true,
                         "config": {
                             "rules": [],
@@ -70,16 +80,6 @@
                                     "required": true
                                 }
                             ]
-                        }
-                    }
-                ],
-                "relevance": [
-                    {
-                        "name": "relevance",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": []
                         }
                     }
                 ]
