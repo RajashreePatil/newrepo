@@ -21,6 +21,8 @@ public abstract class AbstractWorkspace {
         this.name = name;
         this.description = description;
     }
+    
+    
 
     /**
      * Gets the ID of this workspace.
@@ -36,6 +38,8 @@ public abstract class AbstractWorkspace {
      *
      * @param id    the ID (a positive integer)
      */
+    
+    
     public void setId(long id) {
         this.id = id;
     }
@@ -48,6 +52,8 @@ public abstract class AbstractWorkspace {
     public String getName() {
         return name;
     }
+    
+    
 
     /**
      * Sets the name of this workspace.
@@ -72,6 +78,9 @@ public abstract class AbstractWorkspace {
      *
      * @param description       the description, as a String
      */
+    
+    
+    
     public void setDescription(String description) {
         this.description = description;
     }
